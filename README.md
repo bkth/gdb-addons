@@ -4,6 +4,9 @@ Repo for custom gdb commands
 # Peek-pointers
 Given an address it will check pointers present starting at the address and spit out pointers for shared objects
 
+right now the vanilla version has the basic behaviour but I have not yet backported some of the feature such as dumping all pointers
+or from a specific object
+
 ```
 peek-pointers address <object_name> <all>
 ```
